@@ -17,6 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head >
+        <title>Miguel Nicolas</title>
+      </head>
       <body className={inter.className}>
         <div className=" flex flex-row bg-slate-900 h-full w-dvh">
           <Navbar></Navbar>

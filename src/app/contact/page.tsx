@@ -36,7 +36,7 @@ export default function Home() {
           >
           <Skill
             src="/cv-icono.png"
-            nombre="Curriculum">
+            nombre="CV">
           </Skill>
         </Link>
       </div>
