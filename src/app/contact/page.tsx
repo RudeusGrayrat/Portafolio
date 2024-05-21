@@ -31,7 +31,7 @@ export default function Home() {
       </div>
       <div className="hover:text-white hover:scale-150 m-8">
         <Link
-          href="https://docs.google.com/document/d/1AtQMnL1H9lAV8JFRJVLUkkIiEpb_47yZ/edit?usp=sharing&ouid=117921362890920562953&rtpof=true&sd=true"
+          href="https://drive.google.com/file/d/1NrUKVQw-CymZ_-hjgOr6Q4HGEf4qRWs1/view?usp=sharing"
           target="_blank"
           >
           <Skill
