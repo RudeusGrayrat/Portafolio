@@ -11,7 +11,7 @@ export default function Skill(props: any) {
              font-bold  ">
             {props.nombre}
           </h1>
-          <span className="my-10 md:m-16 md:mx-12 ">
+          <span className="my-10 md:m-16 md:mx-12 xl:mx-20">
             {props.span}
           </span>
       </div>

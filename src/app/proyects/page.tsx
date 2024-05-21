@@ -14,7 +14,7 @@ export default function Abaut() {
                 para los amantes de la música que desean explorar, 
                 descubrir y disfrutar de una amplia variedad de canciones 
                 en cualquier momento y lugar. Desarrollada con tecnologías 
-                modernas como TypeScript, React, Next.js, Node.js y PostgreSQL, 
+                modernas como TypeScript, Next.js, Tailwind, Node.js y PostgreSQL, 
                 H Music ofrece una experiencia de usuario excepcional con 
                 funcionalidades innovadoras y una interfaz intuitiva">
             </Card>
@@ -22,13 +22,14 @@ export default function Abaut() {
                 imagen="/imagen-dogs.png"
                 url="https://miguelnc-pi-dogs.vercel.app/"
                 nombre="PI-Dogs"
-                span="H Music es una aplicación de música diseñada 
-                para los amantes de la música que desean explorar, 
-                descubrir y disfrutar de una amplia variedad de canciones 
-                en cualquier momento y lugar. Desarrollada con tecnologías 
-                modernas como TypeScript, React, Next.js, Node.js y PostgreSQL, 
-                H Music ofrece una experiencia de usuario excepcional con 
-                funcionalidades innovadoras y una interfaz intuitiva">
+                span="Dogs es mi aplicación que tiene como objetivo permitir a los usuarios buscar y 
+                gestionar información sobre diferentes razas de perros.
+                Ofrece una experiencia de usuario excepcional con 
+                funcionalidades adorables que combina con la tematica de perros.
+                Todo eso desarrollado utilizando React y css puro.
+                Construí el backend utilizando Node.js y Express.
+                Integré la base de datos con PostgreSQL y Sequelize.
+                ">
             </Card>
         </div>
     )
