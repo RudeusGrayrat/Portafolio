@@ -7,8 +7,8 @@ export default function Abaut() {
         text-white  font-sans pr-[17%] md:pr-0
        ">
             <Card
-                imagen="/Logo-tower-and-tower.png"
-                url="#"
+                imagen="/Logo-Tower-and-Tower.png"
+                url="https://towerandtower.com.pe"
                 nombre="Auxiliar de Sistemas - Tower and Tower"
                 span="Trabajé como auxiliar de sistemas en Tower and Tower, donde fui responsable de 
                 la gestión y mantenimiento de la infraestructura tecnológica de la empresa. 
