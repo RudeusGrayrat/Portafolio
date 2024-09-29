@@ -7,6 +7,17 @@ export default function Abaut() {
         text-white  font-sans pr-[17%] md:pr-0
        ">
             <Card
+                imagen="/Logo-tower-and-tower.png"
+                url="#"
+                nombre="Auxiliar de Sistemas - Tower and Tower"
+                span="Trabajé como auxiliar de sistemas en Tower and Tower, donde fui responsable de 
+                la gestión y mantenimiento de la infraestructura tecnológica de la empresa. 
+                Realicé tareas de soporte técnico, administración de redes, instalación y 
+                configuración de equipos. También colaboré en la implementación de nuevas 
+                herramientas de software y en la resolución de incidencias técnicas del día a día."
+            />
+
+            <Card
                 imagen="/imagenhmusic.png"
                 url="https://henry-music.vercel.app"
                 nombre="HMusic"
