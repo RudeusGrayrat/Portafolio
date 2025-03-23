@@ -4,7 +4,7 @@ export default function Skill(props: any) {
   return (
 
     <div className="w-4/5 flex flex-col xl:flex-row justify-center items-center h-max
-         text-white border border-slate-600 rounded-xl shadow-lg shadow-slate-800 bg-[#a5c2f8] bg-opacity-15 pt-4  font-sans mb-10
+         text-white border px-4 border-slate-600 rounded-xl shadow-lg shadow-slate-800 bg-[#a5c2f8] bg-opacity-15 pt-4  font-sans mb-10
         ">
       <div className="flex flex-col text-center items-center">
           <h1 className=" text-6xl  text-green-200 

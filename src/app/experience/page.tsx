@@ -2,9 +2,9 @@ import Card from "@/components/Cards/Card"
 export default function Abaut() {
     return (
         <div className="
-        flex flex-col w-4/5 ml-[17%] md:ml-[20%] justify-center
-            items-center mt-16
-        text-white  font-sans pr-[17%] md:pr-0
+        flex flex-col w-5/5 xl:ml-[17%] md:ml-[20%] justify-center
+            items-center mt-16 ml-0
+        text-white  font-sans xl:pr-[17%] md:pr-0
        ">
             <Card
                 imagen="/Logo-Tower-and-Tower.png"

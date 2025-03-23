@@ -1,13 +1,18 @@
-import BinaryBackground from "@/components/BackgroundDynamic"
 import Image from "next/image"
 export default function About() {
   return (
 
     <div className="
-      flex mx-[15%] md:mx-0  md:ml-[20%] flex-col xl:flex-row justify-center
-      items-center  text-white font-sans pr-6 md:pr-14
-      w-4/5 xl:h-screen my-24 xl:my-0">
-      <div className=" ml-12  shadow-slate-800 pt-4 flex border-gray-600 mb-2 shadow-lg border flex-col items-center bg-[#a5c2f8] rounded-xl bg-opacity-15">
+      flex flex-col xl:flex-row w-full xl:h-screen  md:ml-[20%] justify-center
+            items-center mt-16 ml-0 xl:mt-0
+        text-white  font-sans  md:pr-0
+
+          md:mx-0  
+        
+        
+        ">
+
+      <div className="xl:ml-12 w-4/5 px-4  shadow-slate-800 pt-4 flex border-gray-600 mb-2 shadow-lg border flex-col items-center bg-[#a5c2f8] rounded-xl bg-opacity-15">
         <h1 className=" text-6xl text-center text-green-200 
              font-bold  ">
           Miguel Nicolas
@@ -26,7 +31,7 @@ export default function About() {
           📚 Tengo conocimientos en Java, Kotlin, Flutter y otras tecnologías, pero mis fortalezas son la lógica de programación y el desarrollo web. Siempre estoy dispuesto a aprender nuevas herramientas y ampliar mis habilidades. </span>
       </div>
 
-      <div className="flex ml-12 mt-10  shadow-slate-800 justify-center items-center md:mx-24 md:p-6  h-[400px] bg-[#a5c2f8] bg-opacity-15 border-gray-600 shadow-lg border rounded-3xl">
+      <div className="flex  my-10 w-4/5 xl:w-2/5 px-4 shadow-slate-800 justify-center items-center md:mx-12 md:p-6  h-[400px] bg-[#a5c2f8] bg-opacity-15 border-gray-600 shadow-lg border rounded-3xl">
         <Image
           src="/miguel_traje.jpeg"
           alt="hola"
