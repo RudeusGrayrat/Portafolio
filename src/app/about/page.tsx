@@ -1,3 +1,4 @@
+import BinaryBackground from "@/components/BackgroundDynamic"
 import Image from "next/image"
 export default function About() {
   return (
@@ -6,25 +7,26 @@ export default function About() {
       flex mx-[15%] md:mx-0  md:ml-[20%] flex-col xl:flex-row justify-center
       items-center  text-white font-sans pr-6 md:pr-14
       w-4/5 xl:h-screen my-24 xl:my-0">
-      <div className="flex flex-col items-center">
+      <div className=" ml-12  shadow-slate-800 pt-4 flex border-gray-600 mb-2 shadow-lg border flex-col items-center bg-[#a5c2f8] rounded-xl bg-opacity-15">
         <h1 className=" text-6xl text-center text-green-200 
              font-bold  ">
           Miguel Nicolas
         </h1>
         <span className="my-6  xl:my-10 text-center xl:mx-16 md:m-10 xl:px-16 ">
+          <strong>
+            💻 Desarrollador Full Stack <br />
+          </strong>
           Background:
-          Ingeniería de Ciberseguridad  <br />
-          Tengo 22 años ¡Soy de Perú! .
-          Mi experiencia abarca tanto el desarrollo front-end como el back-end
-          <br />
-          Siempre estoy buscando nuevos desafíos y formas de mejorar la experiencia del usuario a través de soluciones técnicas sólidas.
+          🎓 Ingeniería de Ciberseguridad   <br />
+          ¡Hola! Tengo 23 años y soy de Perú. Mi experiencia abarca tanto el desarrollo front-end como back-end, siempre buscando nuevos desafíos y formas de mejorar la experiencia del usuario con soluciones técnicas sólidas.
           <br />
 
-          🚀Mi objetivo profesional es invertir el mayor tiempo posible en ser un gran Desarrollador Web.
+          🚀 Objetivo profesional: Aprender continuamente y mejorar en cada paso.
           <br />
-          📚Tengo conocimientos en Java y actualmente estoy estudiando Spring Boot. </span>
+          📚 Tengo conocimientos en Java, Kotlin, Flutter y otras tecnologías, pero mis fortalezas son la lógica de programación y el desarrollo web. Siempre estoy dispuesto a aprender nuevas herramientas y ampliar mis habilidades. </span>
       </div>
-      <div className="md:mx-24 md:pr-6">
+
+      <div className="flex ml-12 mt-10  shadow-slate-800 justify-center items-center md:mx-24 md:p-6  h-[400px] bg-[#a5c2f8] bg-opacity-15 border-gray-600 shadow-lg border rounded-3xl">
         <Image
           src="/miguel_traje.jpeg"
           alt="hola"

@@ -1,0 +1,44 @@
+2024-10-10 21:56:57.8417|INFO|DS4Windows version 3.3.3
+2024-10-10 21:56:57.8417|INFO|DS4Windows exe file: DS4Windows.exe
+2024-10-10 21:56:57.8417|INFO|DS4Windows Assembly Architecture: x64
+2024-10-10 21:56:57.8417|INFO|OS Version: Microsoft Windows NT 10.0.22631.0
+2024-10-10 21:56:57.8417|INFO|OS Product Name: Windows 10 Home Single Language
+2024-10-10 21:56:57.8417|INFO|OS Release ID: 2009
+2024-10-10 21:56:57.8417|INFO|System Architecture: x64
+2024-10-10 21:56:57.8417|INFO|Logger created
+2024-10-10 21:56:57.9163|INFO|LinkedProfiles.xml can't be found.
+2024-10-10 21:56:58.8417|INFO|Running as User
+2024-10-10 21:56:59.8864|INFO|Starting...
+2024-10-10 21:57:01.8867|INFO|Some applications may block controller inputs. (Windows UAC Conflictions). Please go to https://ryochan7.github.io/ds4windows-site/troubleshooting/kb-mouse-issues/#windows-not-responding-to-ds4ws-kb-m-commands-in-some-situations for more information and workarounds.
+2024-10-10 21:57:01.8867|INFO|Using output KB+M handler: SendInput
+2024-10-10 21:57:01.8867|INFO|Connection to ViGEmBus 1.21.442.0 established
+2024-10-10 21:57:01.8867|INFO|Searching for controllers...
+2024-10-10 21:57:01.8867|INFO|Using Shared Mode
+2024-10-10 21:57:02.0024|INFO|Found Controller: 7C:66:EF:14:2B:F6 (BT) (DualSense).
+2024-10-10 21:57:02.4274|INFO|Plugging in virtual X360 controller (XInput slot #1) in output slot #1
+2024-10-10 21:57:02.4274|INFO|Associated input controller #1 (DualSense) to virtual X360 Controller in output slot #1
+2024-10-10 21:57:02.4529|WARN|7C:66:EF:14:2B:F6 disconnected due to read failure: 0
+2024-10-10 21:57:02.4529|INFO|Disassociated virtual X360 Controller in output slot #1 from input controller #1 (DualSense)
+2024-10-10 21:57:02.4529|INFO|Unplugging virtual X360 Controller from output slot #1
+2024-10-10 21:57:02.4681|INFO|Controller 1 was removed or lost connection. Charge the battery
+2024-10-10 21:57:10.9507|INFO|Found Controller: 7C:66:EF:14:2B:F6 (BT) (DualSense).
+2024-10-10 21:57:11.2901|INFO|Plugging in virtual X360 controller (XInput slot #1) in output slot #1
+2024-10-10 21:57:11.2901|INFO|Associated input controller #1 (DualSense) to virtual X360 Controller in output slot #1
+2024-10-10 21:57:11.2998|INFO|Controller 1 is using Profile "Default". Battery level is 0%
+2024-10-10 21:57:17.4169|WARN|7C:66:EF:14:2B:F6 disconnected due to read failure: 0
+2024-10-10 21:57:17.4169|INFO|Disassociated virtual X360 Controller in output slot #1 from input controller #1 (DualSense)
+2024-10-10 21:57:17.4169|INFO|Unplugging virtual X360 Controller from output slot #1
+2024-10-10 21:57:17.4192|INFO|Controller 1 was removed or lost connection. Charge the battery
+2024-10-10 21:57:26.2603|INFO|Found Controller: 7C:66:EF:14:2B:F6 (USB) (DualSense).
+2024-10-10 21:57:26.5950|INFO|Plugging in virtual X360 controller (XInput slot #1) in output slot #1
+2024-10-10 21:57:26.5950|INFO|Associated input controller #1 (DualSense) to virtual X360 Controller in output slot #1
+2024-10-10 21:57:26.5950|INFO|Controller 1 is using Profile "Default". Battery level is 0%
+2024-10-10 21:58:26.1558|INFO|Request App Shutdown
+2024-10-10 21:58:26.1558|INFO|Stopping Virtual Output Controllers
+2024-10-10 21:58:26.1558|INFO|Closing connection to ViGEmBus
+2024-10-10 21:58:26.1558|INFO|Disassociated virtual X360 Controller in output slot #1 from input controller #1 (DualSense)
+2024-10-10 21:58:26.1558|INFO|Unplugging virtual X360 Controller from output slot #1
+2024-10-10 21:58:26.1558|INFO|Controller 1 was removed or lost connection
+2024-10-10 21:58:26.2117|INFO|Stopping DS4 Input Controllers
+2024-10-10 21:58:26.2117|INFO|Stopped DS4Windows
+2024-10-10 21:58:26.2117|INFO|Closing connection to output handler SendInput

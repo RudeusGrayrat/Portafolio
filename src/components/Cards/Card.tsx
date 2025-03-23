@@ -4,7 +4,7 @@ export default function Skill(props: any) {
   return (
 
     <div className="w-4/5 flex flex-col xl:flex-row justify-center items-center h-max
-         text-white  font-sans mb-10
+         text-white border border-slate-600 rounded-xl shadow-lg shadow-slate-800 bg-[#a5c2f8] bg-opacity-15 pt-4  font-sans mb-10
         ">
       <div className="flex flex-col text-center items-center">
           <h1 className=" text-6xl  text-green-200 
@@ -15,7 +15,7 @@ export default function Skill(props: any) {
             {props.span}
           </span>
       </div>
-      <div className="mx-16 hover:scale-125  transition duration-300 ease-in-out  ">
+      <div className="mx-16 hover:scale-110  transition duration-500 ease-in-out  ">
         <Link href={props.url} target="_blank">
           <Image
             src={props.imagen}

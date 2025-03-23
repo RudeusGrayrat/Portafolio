@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Nav/Nav";
-
+import BinaryBackground from "@/components/BackgroundDynamic"
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -18,7 +18,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className=" flex flex-row bg-slate-900 h-full w-dvh">
+        <BinaryBackground>
+        </BinaryBackground>
+        <div className=" flex flex-row bg-black bg-opacity-65 h-full w-dvh">
           <Navbar></Navbar>
           {children}
         </div>

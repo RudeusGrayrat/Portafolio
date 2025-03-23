@@ -1,0 +1,14 @@
+2024-10-10 21:55:24.2405|INFO|DS4Windows version 3.3.3
+2024-10-10 21:55:24.2405|INFO|DS4Windows exe file: DS4Windows.exe
+2024-10-10 21:55:24.2405|INFO|DS4Windows Assembly Architecture: x64
+2024-10-10 21:55:24.2405|INFO|OS Version: Microsoft Windows NT 10.0.22631.0
+2024-10-10 21:55:24.2405|INFO|OS Product Name: Windows 10 Home Single Language
+2024-10-10 21:55:24.2405|INFO|OS Release ID: 2009
+2024-10-10 21:55:24.2405|INFO|System Architecture: x64
+2024-10-10 21:55:24.2405|INFO|Logger created
+2024-10-10 21:55:31.4140|INFO|No config found. Creating default config
+2024-10-10 21:55:31.4786|INFO|Default config created
+2024-10-10 21:55:31.4893|INFO|LinkedProfiles.xml can't be found.
+2024-10-10 21:55:32.1070|INFO|Running as User
+2024-10-10 21:55:34.8161|INFO|ViGEmBus is not installed
+2024-10-10 21:56:37.7116|INFO|Request App Shutdown
