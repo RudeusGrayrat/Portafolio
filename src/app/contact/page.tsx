@@ -38,7 +38,7 @@ export default function Home() {
           </Skill>
         </Link>
         <Link
-          href="https://drive.google.com/file/d/10P0ZfpKJLa8eKgJTPx_TrGn54XRtKDpz/view?usp=sharing"
+          href="https://drive.google.com/file/d/1rT_7CHVtO1Ciznl4NVYmO7Hy1dGzgu9B/view?usp=sharing"
           target="_blank"
         >
           <Skill
