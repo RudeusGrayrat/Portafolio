@@ -17,7 +17,7 @@ const Navbar = () => {
         { id: 3, link: "skills" },
         { id: 4, link: "contact" },
     ];
-    const textToBinary = (text) => {
+    const textToBinary = (text: string) => {
         return text.split('').map(char => {
             return char.charCodeAt(0).toString(2).padStart(8, '0');
         }).join(' ');
@@ -47,7 +47,7 @@ const Navbar = () => {
 
     // Efecto glitch al hacer hover
     useEffect(() => {
-        let interval;
+        let interval: NodeJS.Timeout;
         if (isHovered) {
             const glitchChars = "!<>-_\\/[]{}—=+*^?#$%&@|";
             let iterations = 0;
