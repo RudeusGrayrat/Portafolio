@@ -3,13 +3,14 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Nav/Nav";
 import BinaryBackground from "@/components/BackgroundDynamic"
+import Miguel from "../app/MiguelIcon.svg"
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Miguel Nicolas",
   description: "Portafolio of Miguel Nicolas, a software developer specializing in web development.",
   icons: {
-    icon: "nc",
+    icon: Miguel.src,
   },
 };
 
