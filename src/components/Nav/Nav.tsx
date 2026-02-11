@@ -3,6 +3,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import Image from "next/image";
+import Miguel from "../../app/Miguel.svg"
 
 
 const Navbar = () => {
@@ -15,23 +16,25 @@ const Navbar = () => {
     ];
 
     return (
-        <div className=" flex m-8 md:m-0 flex-col fixed md:z-600  h-10 md:h-screen 
-        justify-center items-center md:w-1/5 z-50 text-white
-         bg-slate-800 shadow-lg md:shadow-white"
+        <div className=" flex m-8 md:m-0  fixed md:z-600 md:h-[84px] w-screen 
+        px-12 items-center justify-between  z-50 text-white
+         bg-black border-b border-green-900 border-opacity-50"
+
         >
-            <div className="hidden md:flex justify-center  bg-slate-50 rounded-full w-auto h-auto  ">
+            <div className="hidden md:flex justify-center  w-auto h-auto  ">
                 <Link href="/">
                     <Image
-                        src="/android-chrome-512x512-removebg-preview.png"
+                        src={Miguel}
                         alt="logo"
-                        width={100}
-                        height={100}
+                        className="rounded-full"
+                        width={70}
+                        height={70}
                     >
                     </Image>
                 </Link>
             </div>
             <div className="hidden md:block">
-                <ul className="flex flex-col my-6 text-center"
+                <ul className="flex my-6 text-center gap-6"
                 >
                     {links.map(({ id, link }) => (
                         <li
