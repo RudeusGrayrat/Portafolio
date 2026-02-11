@@ -23,9 +23,13 @@ export default function RootLayout({
       <body className={inter.className}>
         <BinaryBackground>
         </BinaryBackground>
-        <div className=" flex flex-col bg-black bg-opacity-65 h-full w-dvh">
-          <Navbar></Navbar>
-          {children}
+        <div className=" flex flex-col bg-black bg-opacity-[0.75] h-screen w-dvh">
+          <div className="h-20">
+            <Navbar></Navbar>
+          </div>
+          <div className="flex-grow">
+            {children}
+          </div>
         </div>
       </body>
 

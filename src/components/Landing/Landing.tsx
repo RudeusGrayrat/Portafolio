@@ -1,16 +1,29 @@
 import Link from "next/link"
+
 export default function Landing() {
     return (
-
-        <div className="flex flex-col h-full justify-center items-center rounded-full w-auto ">
-            <Link href="/about" className="text-4xl sm:text-8xl text-green-200 cursor-pointer 
-             hover:text-white
-            hover:scale-105 pr-4  font-bold font-sans">
-                Bienvenido
+        <div className="relative flex flex-col h-screen justify-center items-center ">
+            <Link
+                href="/about"
+                className="group relative text-5xl sm:text-9xl text-white cursor-pointer font-black tracking-tight"
+            >
+                <span className="relative">
+                    <span className="text-[#1e52b3] group-hover:text-[#3a7fd1] transition-colors mr-2">{"<"}</span>
+                    <span className="bg-gradient-to-r from-white to-gray-300 bg-clip-text  transition-all duration-500">
+                        Bienvenido
+                    </span>
+                    <span className="text-[#1e52b3] group-hover:text-[#3a7fd1] transition-colors ml-2">{"/>"}</span>
+                </span>
             </Link>
-            <h1 className="text-2xl text-green-200 text-center
-             font-bold font-sans p-8">Soy Miguel!<br/> Un Full Stack Developer</h1>
 
+            <div className="relative mt-12 text-center">
+                <h1 className="relative text-2xl sm:text-3xl text-green-400 font-mono pr-2 animate-pulse whitespace-nowrap overflow-hidden">
+                    Miguel Nicolas · Software Developer
+                </h1>
+                <p className="text-gray-500 mt-4 text-sm tracking-widest uppercase">
+                    Full Stack · React · Node · MongoDB
+                </p>
+            </div>
         </div>
     )
 }

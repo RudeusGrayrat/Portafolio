@@ -2,8 +2,8 @@ import Card from "@/components/Cards/Card"
 export default function Abaut() {
     return (
         <div className="
-        flex flex-col w-5/5 xl:ml-[17%] md:ml-[20%] justify-center
-            items-center mt-16 ml-0
+        flex flex-col h-full  justify-center
+            items-center mt-16 ml-0 overflow-x-hidden
         text-white  font-sans xl:pr-[0%] md:pr-0
        ">
             <Card
