@@ -10,7 +10,7 @@ export default function Skill(props: any) {
         {props.nombre}
       </h1>
       <div className="flex  text-center items-center  max-md:flex-col">
-        <span className="my-10 md:m-10 md:mx-12 xl:mx-20">
+        <span className="my-10 max-md:m-10 md:m-10 md:mx-12 xl:mx-20">
           {props.span}
         </span>
         <div className="mx-16 hover:scale-110  transition duration-500 ease-in-out  ">

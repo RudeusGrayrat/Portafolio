@@ -19,8 +19,6 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-
-
   return (
     <html lang="es">
       <body className={inter.className}>
@@ -28,7 +26,7 @@ export default function RootLayout({
         </BinaryBackground>
         <div className=" flex flex-col bg-black bg-opacity-[0.75] h-screen w-dvh">
           <Navbar></Navbar>
-          <div className="h-full   !mt-20 overflow-y-auto">
+          <div className="flex-grow">
             {children}
           </div>
         </div>

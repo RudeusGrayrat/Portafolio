@@ -1,8 +1,8 @@
 import Skill from "@/components/Skill/Skill";
 export default function Home() {
     return (
-        <div className="w-full flex h-full max-md:mt-10 flex-wrap justify-center items-center p-5 ">
-            <div className="flex flex-wrap h-full gap content-center justify-center items-center  text-2xl ">
+        <div className="w-full  flex h-full  max-md:mt-10 flex-wrap justify-center items-center p-5 ">
+            <div className="flex flex-wrap lg:w-[50%] h-full gap content-center justify-center items-center  text-2xl ">
                 <Skill
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
                     nombre="Javascript">

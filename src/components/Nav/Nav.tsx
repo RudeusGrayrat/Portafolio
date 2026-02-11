@@ -90,8 +90,6 @@ const Navbar = () => {
                 onMouseLeave={() => setIsHovered(false)}
             >
                 <Link href="/" className="group relative">
-
-
                     <span className="text-gray-200 group-hover:text-green-400 transition-all duration-300 text-2xl mx-1 relative">
                         {glitchText}
                         {/* Efecto de scan lines */}
@@ -100,9 +98,7 @@ const Navbar = () => {
 
                     <span className="text-black group-hover:text-green-400 transition-all duration-300 text-2xl relative">
                         {"_"}
-
                     </span>
-
                     {/* Efecto de código flotando */}
                     {isHovered && (
                         <div className="absolute bottom-1 left-32 text-xs text-green-600 font-mono whitespace-nowrap animate-fadeIn">
@@ -149,15 +145,14 @@ const Navbar = () => {
                         {'>'} NAVIGATION.exe
                         <span className="animate-pulse ml-1">_</span>
                     </div>
-
-                    {links.map(({ id, link }) => (
+                    {[{ id: 0, link: "home" }, ...links].map(({ id, link }) => (
                         <li
                             key={id}
                             className="px-4 cursor-pointer capitalize py-6 text-4xl group"
                         >
                             <Link
                                 onClick={() => setNav(!nav)}
-                                href={link}
+                                href={link === "home" ? "/" : link}
                                 className="relative font-mono text-gray-500 group-hover:text-green-400 transition-all duration-300"
                             >
                                 <span className="relative">

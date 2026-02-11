@@ -2,7 +2,7 @@ import Card from "@/components/Cards/Card"
 export default function Abaut() {
     return (
         <div className="
-        flex flex-col justify-center
+        flex flex-col justify-center !mt-20
             items-center overflow-x-hidden
         text-white  font-sans xl:pr-[0%] md:pr-0 gap-10 pt-5
        ">
