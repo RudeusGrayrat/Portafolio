@@ -1,13 +1,8 @@
 import Skill from "@/components/Skill/Skill";
-import Image from "next/image"
 export default function Home() {
     return (
-        <div className="ml-[10%] md:ml-[20%] w-4/5 flex 
-            my-20 lg:my-0 flex-col sm:flex-row
-            lg:flex-col  justify-center  items-center md:h-screen
-            text-2xl text-green-200 
-             font-bold font-sans px-[20%] lg:px-0">
-            <div className="flex flex-wrap content-center ">
+        <div className="w-full flex h-full max-md:mt-10 flex-wrap justify-center items-center p-5 ">
+            <div className="flex flex-wrap h-full gap content-center justify-center items-center  text-2xl ">
                 <Skill
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
                     nombre="Javascript">
@@ -24,8 +19,6 @@ export default function Home() {
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
                     nombre="Next">
                 </Skill>
-            </div>
-            <div className="flex flex-wrap content-center">
                 <Skill
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
                     nombre="Node">
@@ -42,9 +35,7 @@ export default function Home() {
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg"
                     nombre="Sequelize">
                 </Skill>
-            </div>
-            <div className="flex flex-wrap content-center">
-            <Skill
+                <Skill
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg"
                     nombre="Tailwind">
                 </Skill>

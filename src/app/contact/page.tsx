@@ -3,13 +3,12 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="  ml-[10%] md:ml-[20%] w-4/5 flex 
-            my-20 lg:my-0 flex-col sm:flex-row md:flex-col
+    <div className="  w-full flex 
+            my-20 lg:my-0 sm:flex-row md:flex-col
             lg:flex-col  justify-center  items-center md:h-screen
             text-2xl text-green-200 
              font-bold font-sans px-[20%] lg:px-0">
-      <div className="md:flex lg:flex-wrap content-center ">
-
+      <div className=" flex flex-wrap justify-center items-center ">
         <Link href="https://github.com/RudeusGrayrat" target="_blank" className="">
           <Skill
             src="/github-image.jpg"

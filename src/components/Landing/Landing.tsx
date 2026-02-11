@@ -17,8 +17,12 @@ export default function Landing() {
             </Link>
 
             <div className="relative mt-12 text-center">
-                <h1 className="relative text-2xl sm:text-3xl text-green-400 font-mono pr-2 animate-pulse whitespace-nowrap overflow-hidden">
-                    Miguel Nicolas · Software Developer
+                <h1 className="relative text-2xl sm:text-3xl text-green-400 font-mono pr-2 animate-pulse whitespace-nowrap flex max-sm:flex-col max-sm:gap-0 gap-3 overflow-hidden">
+                    <span>Miguel Nicolas</span>
+                    <span>
+                        ·
+                    </span>
+                    <span>Software Developer</span>
                 </h1>
                 <p className="text-gray-500 mt-4 text-sm tracking-widest uppercase">
                     Full Stack · React · Node · MongoDB

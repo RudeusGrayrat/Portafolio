@@ -1,37 +1,41 @@
 import Image from "next/image"
 import Miguel from "../Miguel.svg"
+import Card from "@/components/Cards/Card"
+import Link from "next/link"
+
 export default function About() {
   return (
 
     <div className="
-      flex flex-col xl:flex-row w-full xl:h-screen  justify-center  items-center mt-16  xl:mt-0  text-white  font-sans  ">
-      <div className=" w-4/5 px-4 md:mx-12 shadow-slate-800 pt-4 flex border-gray-600 mb-2 shadow-lg border flex-col items-center bg-[#a5c2f8] rounded-xl bg-opacity-15">
-        <h1 className=" text-6xl text-center text-green-200 
+      flex flex-col  w-full h-full  justify-center  items-center mt-16  xl:mt-0  text-white  font-sans  ">
+      <div className="w-[1000px] flex flex-col justify-center items-center h-max
+         text-white border px-4 border-slate-600 rounded-xl shadow-lg shadow-slate-800 bg-[#a5c2f8] bg-opacity-15 pt-4  font-sans mb-10 max-md:w-[90%] ">
+        <h1 className=" text-6xl  text-green-200 
              font-bold  ">
           Miguel Nicolas
         </h1>
-        <span className="my-6  xl:my-10 text-center xl:mx-16 md:m-10 xl:px-16 ">
-          <strong>
-            💻 Desarrollador Full Stack <br />
-          </strong>
-          Background:
-          🎓 Ingeniería de Ciberseguridad   <br />
-          ¡Hola! Tengo 23 años y soy de Perú. Mi experiencia abarca tanto el desarrollo front-end como back-end, siempre buscando nuevos desafíos y formas de mejorar la experiencia del usuario con soluciones técnicas sólidas.
-          <br />
+        <div className="flex  text-center items-center  max-md:flex-col">
+          <span className="my-10 md:m-10 md:mx-12 xl:mx-20">
+            Hola, soy Miguel Nicolas, un apasionado desarrollador de software especializado en el desarrollo web.
+            Con una sólida formación en ingeniería de software y una amplia experiencia en el desarrollo de aplicaciones web, me dedico a crear soluciones innovadoras y eficientes para satisfacer las necesidades de los usuarios.
+            Mi enfoque se centra en el desarrollo de aplicaciones web modernas utilizando tecnologías como React, Next.js, Node.js y bases de datos relacionales. Me esfuerzo por escribir código limpio, mantenible y escalable, siguiendo las mejores prácticas de desarrollo.
+            Además de mis habilidades técnicas, también valoro la colaboración y el trabajo en equipo. Disfruto compartir conocimientos y aprender de otros desarrolladores para mejorar continuamente mis habilidades y contribuir al crecimiento del equipo.
+          </span>
+          <div className="mx-16 hover:scale-110  transition duration-500 ease-in-out  ">
+            <Link href="https://www.linkedin.com/in/miguel-nicolas-8b6582258/" target="_blank">
+              <Image
+                src={Miguel}
+                alt="proyecto"
+                width={700}
+                className=" flex justify-center items-center rounded-3xl max-w-64	 h-auto "
+                height={500}>
+              </Image>
+              <span>Ir</span>
+            </Link>
+          </div>
 
-          🚀 Objetivo profesional: Aprender continuamente y mejorar en cada paso.
-          <br />
-          📚 Tengo conocimientos en Java, Kotlin, Flutter y otras tecnologías, pero mis fortalezas son la lógica de programación y el desarrollo web. Siempre estoy dispuesto a aprender nuevas herramientas y ampliar mis habilidades. </span>
-      </div>
 
-      <div className="flex  my-10 w-4/5 xl:w-2/5 px-4 shadow-slate-800 justify-center items-center md:mx-12 md:p-6  h-[400px] bg-[#a5c2f8] bg-opacity-15 border-gray-600 shadow-lg border rounded-3xl">
-        <Image
-          src={Miguel}
-          alt="hola"
-          width={500}
-          className=" flex justify-center items-center rounded-3xl max-w-64	 h-auto "
-          height={400}>
-        </Image>
+        </div >
       </div>
     </div>
   )

@@ -2,14 +2,14 @@ import Card from "@/components/Cards/Card"
 export default function Abaut() {
     return (
         <div className="
-        flex flex-col h-full  justify-center
-            items-center mt-16 ml-0 overflow-x-hidden
-        text-white  font-sans xl:pr-[0%] md:pr-0
+        flex flex-col justify-center
+            items-center overflow-x-hidden
+        text-white  font-sans xl:pr-[0%] md:pr-0 gap-10 pt-5
        ">
             <Card
                 imagen="/Logo-Tower-and-Tower.png"
                 url="https://towerandtower.com.pe"
-                nombre="Auxiliar de Sistemas - Tower and Tower"
+                nombre="Auxiliar de Sistemas - T&T"
                 span="Trabajé como auxiliar de sistemas en Tower and Tower, donde fui responsable de 
                 la gestión y mantenimiento de la infraestructura tecnológica de la empresa. 
                 Realicé tareas de soporte técnico, administración de redes, instalación y 

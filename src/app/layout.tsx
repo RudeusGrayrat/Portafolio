@@ -25,10 +25,8 @@ export default function RootLayout({
         <BinaryBackground>
         </BinaryBackground>
         <div className=" flex flex-col bg-black bg-opacity-[0.75] h-screen w-dvh">
-          <div className="h-20">
-            <Navbar></Navbar>
-          </div>
-          <div className="flex-grow">
+          <Navbar></Navbar>
+          <div className="h-full !mt-20 overflow-y-auto">
             {children}
           </div>
         </div>

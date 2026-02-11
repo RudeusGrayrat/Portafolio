@@ -81,8 +81,8 @@ const Navbar = () => {
     return (
         <div className="flex md:z-600 md:h-20 w-screen 
         px-12 items-center fixed justify-between z-50  text-white
-        bg-black border-b border-green-500 border-opacity-40
-        shadow-[0_0_13px_rgba(0,255,0,0.2)]" // Efecto glow verde
+        bg-black border-b border-green-500 border-opacity-30
+        shadow-[0_0_13px_rgba(0,255,0,0.1)] " // Efecto glow verde
         >
             <div
                 className="hidden md:flex justify-center w-auto h-auto"
@@ -140,7 +140,7 @@ const Navbar = () => {
 
             {/* Menú móvil con estilo hacker */}
             <div onClick={() => setNav(!nav)} className="cursor-pointer p-2 z-10 text-green-500 md:hidden w-screen hover:shadow-[0_0_15px_#00ff00] transition-all duration-300">
-                {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
+                {nav ? <FaTimes className="absolute top-6 right-6 " size={30} /> : <FaBars size={30} />}
             </div>
 
             {nav && (
