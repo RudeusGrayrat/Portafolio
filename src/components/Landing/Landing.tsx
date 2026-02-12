@@ -5,11 +5,16 @@ export default function Landing() {
         <div className="relative flex flex-col h-screen justify-center items-center ">
             <Link
                 href="/about"
-                className="group relative text-5xl sm:text-9xl text-white cursor-pointer font-black tracking-tight"
+                className="group relative text-4xl sm:text-9xl text-white cursor-pointer font-black tracking-tight"
             >
                 <span className="relative">
                     <span className="text-[#1e52b3] group-hover:text-[#3a7fd1] transition-colors mr-2">{"<"}</span>
-                    <span className="bg-gradient-to-r from-white to-gray-300 bg-clip-text  transition-all duration-500">
+                    <span style={{
+                        fontFamily: "'Exo', sans-serif",
+                        fontWeight: 700,
+                        letterSpacing: "3px",
+                    }} className="bg-gradient-to-r whitespace-nowrap 
+                     from-white to-gray-300 bg-clip-text  transition-all duration-500">
                         Bienvenido
                     </span>
                     <span className="text-[#1e52b3] group-hover:text-[#3a7fd1] transition-colors ml-2">{"/>"}</span>
