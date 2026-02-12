@@ -5,7 +5,7 @@ export default function Landing() {
         <div className="relative flex flex-col h-screen justify-center items-center ">
             <Link
                 href="/about"
-                className="group relative text-4xl sm:text-9xl text-white cursor-pointer font-black tracking-tight"
+                className="group relative text-5xl sm:text-9xl text-white cursor-pointer font-black tracking-tight"
             >
                 <span className="relative">
                     <span className="text-[#1e52b3] group-hover:text-[#3a7fd1] transition-colors mr-2">{"<"}</span>
